@@ -36,10 +36,10 @@
 
             label = "Raise";
             bindings = <
-  &kp TAB      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3   &kp NUMBER_4  &kp NUMBER_5    &kp NUMBER_6    &kp NUMBER_7    &kp NUMBER_8     &kp NUMBER_9  &kp NUMBER_0   &kp BSPC
-&kp LCTRL  &kp LEFT_BRACKET      &kp RBKT      &kp LBRC       &kp RBRC        &trans       &kp MINUS       &kp EQUAL    &kp UP_ARROW         &kp PLUS      &kp BSLH  &kp GRAVE
-&kp LSHFT            &trans        &trans        &trans         &trans        &trans       &kp UNDER  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW      &kp PIPE  &kp TILDE
-                                               &kp LGUI  &kp BACKSPACE     &kp SPACE         &kp RET          &tog 1        &kp RALT
+  &kp TAB      &kp NUMBER_1  &kp NUMBER_2          &kp NUMBER_3           &kp NUMBER_4  &kp NUMBER_5    &kp NUMBER_6    &kp NUMBER_7    &kp NUMBER_8     &kp NUMBER_9  &kp NUMBER_0         &kp BSPC
+&kp LCTRL  &kp LEFT_BRACKET      &kp RBKT  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS         &none       &kp MINUS       &kp EQUAL    &kp UP_ARROW         &kp PLUS      &kp BSLH  &kp KP_MULTIPLY
+&kp LSHFT             &none      &kp LBRC              &kp RBRC               &kp HASH         &none       &kp UNDER  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW      &kp PIPE        &kp TILDE
+                                                       &kp LGUI          &kp BACKSPACE     &kp SPACE         &kp RET          &tog 1        &kp RALT
             >;
         };
     };
