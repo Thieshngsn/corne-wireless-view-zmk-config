@@ -20,10 +20,10 @@
 
             label = "Base";
             bindings = <
-  &kp TAB  &kp W  &kp L     &kp R          &kp B      &kp Z    &kp SEMICOLON   &kp Q     &kp U  &kp D  &kp J  &kp BSPC
-&kp LCTRL  &kp S  &kp H     &kp N          &kp T  &kp COMMA       &kp PERIOD   &kp A     &kp E  &kp O  &kp I   &kp SQT
-&kp LSHFT  &kp F  &kp M     &kp V          &kp C  &kp SLASH            &kp G   &kp P     &kp X  &kp K  &kp Y   &kp ESC
-                         &kp LGUI  &kp BACKSPACE  &kp SPACE          &kp RET  &tog 1  &kp RALT
+  &kp TAB  &kp W  &kp L          &kp R       &kp B      &kp Z    &kp SEMICOLON  &kp Q     &kp U  &kp D  &kp J  &kp BSPC
+&kp LCTRL  &kp S  &kp H          &kp N       &kp T  &kp COMMA       &kp PERIOD  &kp A     &kp E  &kp O  &kp I   &kp SQT
+ &kp LGUI  &kp F  &kp M          &kp V       &kp C  &kp SLASH            &kp G  &kp P     &kp X  &kp K  &kp Y   &kp ESC
+                         &kp BACKSPACE  &kp LSHIFT  &kp SPACE          &kp RET  &mo 1  &kp RALT
             >;
         };
 
@@ -38,8 +38,8 @@
             bindings = <
   &kp TAB      &kp NUMBER_1  &kp NUMBER_2          &kp NUMBER_3           &kp NUMBER_4  &kp NUMBER_5    &kp NUMBER_6    &kp NUMBER_7    &kp NUMBER_8     &kp NUMBER_9  &kp NUMBER_0         &kp BSPC
 &kp LCTRL  &kp LEFT_BRACKET      &kp RBKT  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS         &none       &kp MINUS       &kp EQUAL    &kp UP_ARROW         &kp PLUS      &kp BSLH  &kp KP_MULTIPLY
-&kp LSHFT             &none      &kp LBRC              &kp RBRC               &kp HASH         &none       &kp UNDER  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW      &kp PIPE        &kp TILDE
-                                                       &kp LGUI          &kp BACKSPACE     &kp SPACE         &kp RET          &tog 1        &kp RALT
+ &kp LGUI             &none      &kp LBRC              &kp RBRC               &kp HASH         &none       &kp UNDER  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW      &kp PIPE        &kp TILDE
+                                                  &kp BACKSPACE             &kp LSHIFT     &kp SPACE         &kp RET           &mo 1        &kp RALT
             >;
         };
     };
